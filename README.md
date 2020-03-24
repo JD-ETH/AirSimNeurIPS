@@ -18,7 +18,7 @@ Within `Daniel` folder, the `planning.py` is inherited and slightly adapted from
 You need to install AirSim first following [instructions](https://github.com/microsoft/AirSim-NeurIPS2019-Drone-Racing), remember to generate settings as instructed, and get the finals environment. 
 
 ## Dependencies
-Clone repo from [ACADO](https://github.com/acado/acado) and [rpg-mpc]https://github.com/uzh-rpg/rpg_mpc at the same level at this repo. ACADO is used for codegen, and for now only the solver is taken from the rpg-mpc repository. You need to adapt the pathing in `mpc_control/codegen.sh` otherwise. 
+Clone repo from [ACADO](https://github.com/acado/acado) and [rpg-mpc](https://github.com/uzh-rpg/rpg_mpc) at the same level at this repo. ACADO is used for codegen, and for now only the solver is taken from the rpg-mpc repository. You need to adapt the pathing in `mpc_control/codegen.sh` otherwise. 
 
 Move the acado source file into the acado toolkit folder for code generation. (This is not elegant but a working solution):
 
